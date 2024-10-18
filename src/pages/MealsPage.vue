@@ -3,6 +3,7 @@ import { useRoute } from "vue-router";
 import { ref, onMounted, computed } from "vue";
 import axios from "axios";
 import VideoPlayer from "./../components/interface/VideoPlayer";
+import { Icon } from "@iconify/vue";
 
 const route = useRoute();
 const category = route.params.category;
